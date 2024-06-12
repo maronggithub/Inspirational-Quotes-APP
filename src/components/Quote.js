@@ -2,7 +2,7 @@ import React from 'react';
 
 function Quote() {
   return (
-    <div>
+    <div id='quote' className='quote'>
       <p>Inspire yourself!</p>
     </div>
   );
