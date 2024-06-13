@@ -4,7 +4,7 @@ function Remind() {
     const [text,setText] = useState('');
     useEffect(() => {
         const updateText = () => {
-        const textArr = ['What a good new day','You have done well!','Have a break!','Tomorrow is another good day'];
+        const textArr = ['What a good new day!','You have done well!','Have a break!','Tomorrow is another good day!'];
         const now = new Date();
         const hours = now.getHours();
         let index;
