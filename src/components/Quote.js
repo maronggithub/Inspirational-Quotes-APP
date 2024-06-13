@@ -6,14 +6,14 @@ function Quote() {
   const [quote, setQuote] = useState('');
   const fetchQuote = async () => {
       try{
-        const response = await fetch('https://cors-anywhere.herokuapp.com/https://zenquotes.io/api/random');
+        const response = await fetch('/quotes.json');
         if (!response.ok) {
           setQuote("The servers are too tired to shut down today.");
           return;
         }
         const data = await response.json();
-        console.log(data);
         if(data.length > 0) {
+          console.log('data', data);
           const randomIndex = Math.floor(Math.random() * data.length);
           setQuote(data[randomIndex].q);
         }
