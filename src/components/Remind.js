@@ -20,7 +20,7 @@ function Remind() {
             index = 3;
         }
         setText(textArr[index]);
-    }
+        }
         // Update text immediately on mount
         updateText();
         const intervalId = setInterval(updateText, 60 * 60 * 1000);

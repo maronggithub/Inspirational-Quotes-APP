@@ -4,9 +4,7 @@ import { faRetweet } from '@fortawesome/free-solid-svg-icons';
 
 function Quote() {
   const [quote, setQuote] = useState('');
-
-  useEffect(() => {
-    const fetchQuote = async () => {
+  const fetchQuote = async () => {
       try{
         const response = await fetch('https://cors-anywhere.herokuapp.com/https://zenquotes.io/api/random');
         if (!response.ok) {
@@ -16,19 +14,25 @@ function Quote() {
         const data = await response.json();
         console.log(data);
         if(data.length > 0) {
-          setQuote(data[0].q);
+          const randomIndex = Math.floor(Math.random() * data.length);
+          setQuote(data[randomIndex].q);
         }
     } catch (error) {
           setQuote("The server is too tired to work today");
     }
     };
+
+  useEffect(() => {
+    
     fetchQuote();
+    const intervalFetch = setInterval(fetchQuote, 6 * 60 * 60 * 1000);
+    return () => clearInterval(intervalFetch);
   },[]);
 
   return (
     <div id='quote' className='quote'>
       <p id="quote-text" className='quote-text'>{quote || 'Trying to figure out how to encourage you.....'}</p>
-      <FontAwesomeIcon icon={faRetweet} className='refresh' />
+      <FontAwesomeIcon icon={faRetweet} className='refresh' onClick={fetchQuote}/>
     </div>
   );
 }
