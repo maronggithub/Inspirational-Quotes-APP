@@ -8,11 +8,11 @@ function Remind() {
         const now = new Date();
         const hours = now.getHours();
         let index;
-        if (hours >=0 && hours < 8) {
+        if (hours >=0 && hours < 12) {
             index = 0;
-        } else if (hours >= 8 && hours < 16) {
+        } else if (hours >= 12 && hours < 18) {
             index = 1;
-        } else if (hours >= 16 && hours < 20) {
+        } else if (hours >= 18 && hours < 21) {
             index = 2;
         } else {
             index = 3;
