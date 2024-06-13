@@ -2,11 +2,9 @@ import React, { useState, useEffect } from 'react';
 
 function Remind() {
     const [text,setText] = useState('');
-    const textArr = ['What a good new day','You have done well!','Have a break!','Tomorrow is another good day'];
-    
-
     useEffect(() => {
         const updateText = () => {
+        const textArr = ['What a good new day','You have done well!','Have a break!','Tomorrow is another good day'];
         const now = new Date();
         const hours = now.getHours();
         let index;
