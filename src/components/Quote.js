@@ -12,18 +12,18 @@ function Quote() {
         }
         const data = await response.json();
         if(data.length > 0) {
-           setQuote(data[0].h);
+          setQuote(data[0].h);
         }
-     } catch (error) {
+    } catch (error) {
           setQuote("The server is too tired to work today");
-     }
+    }
     };
     fetchQuote();
   },[]);
 
   return (
     <div id='quote' className='quote'>
-      <p>{quote || 'Trying to figure out how to encourage you.....'}</p>
+      <p id="quote-text" className='quote-text'>{quote || 'Trying to figure out how to encourage you.....'}</p>
     </div>
   );
 }
