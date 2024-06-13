@@ -16,7 +16,7 @@ This is what this app looks like：
 
   2. :sun_with_face:12:00 ~ 18:00 : "You have done well!"
 
-     You've been studying and working hard for more than six hours, you're awesome! When the app is opened during this time period, the user is recognized for their work study. It gives the user the motivation to keep going.:computer:
+     You've been studying and working hard for hours, you're awesome! When the app is opened during this time period, the user is recognized for their work study. It gives the user the motivation to keep going.:computer:
 
   3. :sunrise:18:00 ~ 21:00 : "Have a break!"
 
