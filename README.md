@@ -28,6 +28,6 @@
 
 - The tipboard in the center randomly displays Inspirational quotes every six hours, and you can click the buttons below to toggle between them, so read them and give yourself some strength!
 
-  ![image](/Users/joy/Desktop/Inspirational-Quotes-APP/document/image.png)
+  ![image](https://github.com/maronggithub/Inspirational-Quotes-APP/blob/main/document/image.png)
 
   
