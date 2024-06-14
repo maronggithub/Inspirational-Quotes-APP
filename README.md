@@ -30,4 +30,7 @@ This is what this app looks like：
 
   ![image](https://github.com/maronggithub/Inspirational-Quotes-APP/blob/main/document/image.png)
 
+   ### git
+   ![image](https://github.com/maronggithub/Inspirational-Quotes-APP/blob/main/document/1.gif)
+
   
