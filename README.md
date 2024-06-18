@@ -1,6 +1,6 @@
 # Inspirational-Quotes-APP
 
-| LIVE DEMO                                                    | IMAGE                                                        | Feature demonstration video |
+| LIVE DEMO                                                    | IMAGE                                                        | VIDEO |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------------- |
 | [Inspirational Quotes APP](https://inspirationalquotesmr.netlify.app/) | [image](https://github.com/maronggithub/Inspirational-Quotes-APP/blob/main/document/image.png) | [video](https://youtu.be/3KRQhQXLDt8?si=7EsGLNlR6bNSHcsO)      |
 
