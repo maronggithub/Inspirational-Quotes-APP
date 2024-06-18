@@ -12,7 +12,7 @@ function Remind() {
             index = 0;
         } else if (hours >= 12 && hours < 18) {
             index = 1;
-        } else if (hours >= 18 && hours < 21) {
+        } else if (hours >= 18 && hours < 22) {
             index = 2;
         } else {
             index = 3;

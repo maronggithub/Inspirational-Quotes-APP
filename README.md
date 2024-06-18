@@ -18,11 +18,11 @@ This is what this app looks like：
 
      You've been studying and working hard for hours, you're awesome! When the app is opened during this time period, the user is recognized for their work study. It gives the user the motivation to keep going.:computer:
 
-  3. :sunrise:18:00 ~ 21:00 : "Have a break!"
+  3. :sunrise:18:00 ~ 22:00 : "Have a break!"
 
      After so many hours of work and study, it's time to relax! When you use the app during this time, the  tipboard  will display "Have a break!", telling the user to relax and not to be too nervous, work and study are very important, and your personal life should also be rich and wonderful ah!:beer:
 
-  4. :zzz:21:00 ~ 24:00 : "Tomorrow is another good day!"
+  4. :zzz:22:00 ~ 24:00 : "Tomorrow is another good day!"
 
      After a long day, many people will be anxious about tomorrow's work and life, please relax and believe in yourself, "Tomorrow is another good day!", use this app near the end of the day, it will prompt you that tomorrow will be a good day again, so don't worry, don't be anxious, believe that tomorrow will be a good day again!:rainbow:
 
