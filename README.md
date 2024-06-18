@@ -2,7 +2,7 @@
 
 | LIVE DEMO                                                    | IMAGE                                                        | Feature demonstration video |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------------- |
-| [Inspirational Quotes APP](https://inspirationalquotesmr.netlify.app/) | [image](https://github.com/maronggithub/Inspirational-Quotes-APP/blob/main/document/image.png) | Wait..I am editing it.      |
+| [Inspirational Quotes APP](https://inspirationalquotesmr.netlify.app/) | [image](https://github.com/maronggithub/Inspirational-Quotes-APP/blob/main/document/image.png) | [video](https://youtu.be/3KRQhQXLDt8?si=7EsGLNlR6bNSHcsO)      |
 
 Have you ever woken up in the morning feeling tired​ :tired_face:, anxious​ :worried:, and self-doubting :cry:. Or feel powerless :disappointed: and unconfident​ :fearful: in the face of work and study challenges. No matter, this app can give you strength​ :muscle: and encourage you to start a new day with vigor​ :star2:.
 
